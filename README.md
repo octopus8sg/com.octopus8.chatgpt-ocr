@@ -28,7 +28,9 @@ After installing and enabling the extension,
 - Download the file 
 - Run ```composer install``` to install the dependencies
 - Populate your OpenAI Secret Key in the php files in CRM/Chatgptocr/Form. As seen in the example
+
 ![Alt text](images/image3.png)
+
 - Upload the files into your extensions folder
 
 The extension is licensed under [AGPL-3.0](LICENSE.txt).
