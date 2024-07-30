@@ -1,0 +1,18 @@
+{
+    "name": "octopus8-010/chatgptocr",
+    "description": "A chatgpt implementation that leverages Vision API",
+    "autoload": {
+        "psr-4": {
+            "Octopus8010\\Chatgptocr\\": "src/"
+        }
+    },
+    "require": {
+        "openai-php/client": "*",
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}

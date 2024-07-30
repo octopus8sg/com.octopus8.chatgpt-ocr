@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/octocr</path>
+    <page_callback>CRM_Chatgptocr_Form_OctoCR</page_callback>
+    <title>Timesheet Upload OCR</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/mj-app</path>
+    <page_callback>CRM_Chatgptocr_Form_ApplicationForm</page_callback>
+    <title>Micro Jobber Application Form Upload OCR</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/referral-form</path>
+    <page_callback>CRM_Chatgptocr_Form_ReferralForm</page_callback>
+    <title>Referral Form Upload OCR</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+</menu>
