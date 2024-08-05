@@ -21,7 +21,7 @@ Then, click “Open Git Bash here”.
 ![Alt text](images/image2.png)
 
 - Populate your OpenAI Secreat Key in the php files in “CRM/Chatgptocr/Form” as shown below.
-![Alt text](images/image3.png)
+![Alt text](images/image3.PNG)
 
 - Upload the files into your extension folder and install the extension.
 
