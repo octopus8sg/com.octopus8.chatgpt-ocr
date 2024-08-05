@@ -11,7 +11,7 @@ To allow the use of OpenAI's OCR to create activities by uploadiing pictures of 
 
 - This helps streamline the conversion of information on a physical document into our system.
 
-# Installation
+# How to use
 - Download the extension and extract the file 
 - Right click the extracted file and click “Show more options”.
 Then, click “Open Git Bash here”.
@@ -25,7 +25,7 @@ Then, click “Open Git Bash here”.
 
 - Upload the files into your extension folder and install the extension.
 
-# How to use
+# Installation
 After installing and enabling the extension,
 1. Go to “CiviCRM Menu Bar >> Referral Form OCR” 
 ![Alt text](images/image4.png)
