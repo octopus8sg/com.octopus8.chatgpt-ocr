@@ -11,26 +11,34 @@ To allow the use of OpenAI's OCR to create activities by uploadiing pictures of 
 
 - This helps streamline the conversion of information on a physical document into our system.
 
-# How to use
-After installing and enabling the extension,
-1. Upload a image file and press submit.
-
-2. Users are able to edit the fields returned by OpenAI if there are any discrepancies.
+# Installation
+- Download the extension and extract the file 
+- Right click the extracted file and click “Show more options”.
+Then, click “Open Git Bash here”.
 ![Alt text](images/image1.png)
 
-3. Click ‘Create Referral' and a new Referral Activity will be created.
+- Then, run ‘“composer install’’’ to download the dependencies
 ![Alt text](images/image2.png)
 
-
-
-
-# Installation
-- Download the file 
-- Run ```composer install``` to install the dependencies
-- Populate your OpenAI Secret Key in the php files in CRM/Chatgptocr/Form. As seen in the example
-
+- Populate your OpenAI Secreat Key in the php files in “CRM/Chatgptocr/Form” as shown below.
 ![Alt text](images/image3.png)
 
-- Upload the files into your extensions folder
+- Upload the files into your extension folder and install the extension.
+
+# How to use
+After installing and enabling the extension,
+1. Go to “CiviCRM Menu Bar >> Referral Form OCR” 
+![Alt text](images/image4.png)
+
+2. Upload an image file that you want to create the activity and press ‘Submit’.
+
+3. Users are able to edit the fields returned by OpenAI if there are any discrepancies.
+![Alt text](images/image5.png)
+
+4. Click ‘Create Referral’ and a new Referral activity will be created.
+![Alt text](images/image6.png)
+
+# Best way to download
+If you do not want to make any changes mentioned above, go to https://dev.aacsconnect.com/wp-admin/admin.php?page=CiviCRM and download the “chatgptocr” extension. 
 
 The extension is licensed under [AGPL-3.0](LICENSE.txt).
