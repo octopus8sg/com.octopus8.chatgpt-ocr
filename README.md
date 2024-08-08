@@ -1,5 +1,8 @@
 # com.octopus8.chatgptocr
 
+# Best way to download
+If you do not want to make any changes mentioned above, go to https://dev.aacsconnect.com/wp-admin/admin.php?page=CiviCRM and download the “chatgptocr” extension.
+
 # Objective
 To allow the use of OpenAI's OCR to create activities by uploadiing pictures of physical forms.
 
@@ -36,9 +39,6 @@ After installing and enabling the extension,
 ![Alt text](images/image5.png)
 
 4. Click ‘Create Referral’ and a new Referral activity will be created.
-![Alt text](images/image6.png)
-
-# Best way to download
-If you do not want to make any changes mentioned above, go to https://dev.aacsconnect.com/wp-admin/admin.php?page=CiviCRM and download the “chatgptocr” extension. 
+![Alt text](images/image6.png) 
 
 The extension is licensed under [AGPL-3.0](LICENSE.txt).
